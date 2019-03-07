@@ -25,7 +25,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='insta.gif' title='Insta App' width='250' alt='Video Walkthrough' />
+<img src='Insta.gif' title='Insta App' width='250' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
