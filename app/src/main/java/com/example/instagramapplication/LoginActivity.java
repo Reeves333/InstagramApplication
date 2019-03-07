@@ -47,13 +47,14 @@ public class LoginActivity extends AppCompatActivity {
         ParseUser.logInInBackground(username, password, new LogInCallback() {
             @Override
             public void done(ParseUser user, ParseException e) {
-                //TODO:
+                //
                 if(e != null) {
                     Log.d("LoginActivity", "Encountered error during login ");
                     e.printStackTrace();
                     return;
                 }
-                //TODO: navigate to new activity if the user has signed properly
+                // navigate to new activity if the user has signed properly
+                goMainActivity();
                 Log.d("LoginActivity", "Login successful");
             }
 
